@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "description": "Gift website server",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "build": "echo 'No build step required'",
-    "dev": "node server.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "start": "node server.js"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
   },
   "keywords": [],
   "author": "",
