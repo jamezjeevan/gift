@@ -4,6 +4,7 @@
   "description": "Gift website server",
   "main": "server.js",
   "scripts": {
+    "build": "echo 'No build step required'",
     "dev": "node server.js",
     "start": "node server.js"
   },
